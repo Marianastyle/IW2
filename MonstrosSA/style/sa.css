@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    border: 0;
+}
+
+img {
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.monster-father{
+    margin:25px;
+    border: 1px solid purple;
+}
+
+.monster-sa {
+    margin:25px;
+    border: 1px solid green;
+}
+
+.monster-form {
+    margin:25px;
+    border: 1px solid red;
+    padding-top:15px;
+    padding-left: 600px;
+    padding-right: 600px;
+    gap: 10px;
+
+
+
+    display:flex;
+    flex-direction: column;
+}
+
+.form-line {
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(179, 186, 202);
+    opacity: 50%;
+}
+
+.form-line:hover {
+    color: aquamarine;
+}
+
+.monster-button {
+    display:flex;
+    flex-direction: row;
+    gap:5px
+}
