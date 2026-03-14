@@ -14,8 +14,9 @@ function bd() {
     return json
 }
 
+bd()
 function adicionar(){
-   let bd = JSON.parse(localStorage.getItem("meubanco"))
+   let bd = JSON.parse(localStorage.getItem("meubanco")) || []
 
    let ids = Date.now()
    let nome = document.querySelector("#nome").value
@@ -33,6 +34,6 @@ function adicionar(){
  
 
 }
-//const dados = bd()
+const dados = bd()
 
 //console.log(dados)
